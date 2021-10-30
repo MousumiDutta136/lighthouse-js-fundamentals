@@ -7,8 +7,7 @@
 const moves = ['north', 'north', 'west', 'west', 'north', 'east', 'north'];
 
 function finalPosition(moves){
-  const parade = [0,0];
-  
+  const parade = [0,0];  
   for(let i = 0; i < moves.length; i++){
     if (moves[i] === "north"){
       parade[0] = parade[0] + 0;
